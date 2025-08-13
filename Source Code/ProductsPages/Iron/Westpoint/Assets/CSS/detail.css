@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;}
+
+.productimg img {
+    margin-top: 1%;
+    margin-left: 20%;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.navbar {
+    height: 20vh;
+    z-index: 1050; /* Ensure navbar stays above other elements */
+  }
+  .navbar > .container {
+    height: 100%;
+  }
+  .dropdown-menu {
+    z-index: 1051; /* Ensure dropdown menu stays above other elements */
+    background-color: #fdcbcb; /* Add background color for visibility */
+    position: relative; /* Ensure proper stacking context */
+  }
+  .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  .card-img-top {
+    height: 380px;
+    object-fit: cover;
+  }
+  @media (max-width: 450px) {
+    .navbar {
+      height: 15vh;
+      margin-top: -10px;
+    }
+    .card {
+      width: 220px;
+    }
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .logo {
+    width: 120px;
+    object-fit: cover;
+    height: 100%;
+  }
+  @media (min-width: 576px) {
+    .custom-blur {
+      filter: none;
+    }
+    .bg-primary {
+      background-color: transparent !important;
+    }
+    .text-light {
+      color: black;
+    }
+  }
+  
+/* Tabs Section */
+.tabs-container {
+    max-width: 90%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+}
+
+.tab-button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: #f1f1f1;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+}
+
+
+.review-card {
+
+    border: 1px solid #ddd;
+    
+    padding: 15px;
+    
+    border-radius: 5px;
+    
+    margin-bottom: 15px;
+    
+    }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+footer {
+  background-color: #0e0f11;
+  color: white;
+  padding: 40px 0;
+}
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.social-icons a {
+  color: white;
+  margin-right: 15px;
+  font-size: 20px;
+}
+.logo-img {
+  max-width: 150px; /* Adjust the size of the logo */
+  margin-bottom: 20px;
+}

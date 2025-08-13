@@ -1,0 +1,96 @@
+.navbar {
+  height: 20vh;
+  z-index: 1050; /* Ensure navbar stays above other elements */
+}
+.navbar > .container {
+  height: 100%;
+}
+.dropdown-menu {
+  z-index: 1051; /* Ensure dropdown menu stays above other elements */
+  background-color: #fdcbcb; /* Add background color for visibility */
+  position: relative; /* Ensure proper stacking context */
+}
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.card-img-top {
+  height: 380px;
+  object-fit: cover;
+}
+@media (max-width: 450px) {
+  .navbar {
+    height: 15vh;
+    margin-top: -10px;
+  }
+  .card {
+    width: 220px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.logo {
+  width: 120px;
+  object-fit: cover;
+  height: 100%;
+}
+@media (min-width: 576px) {
+  .custom-blur {
+    filter: none;
+  }
+  .bg-primary {
+    background-color: transparent !important;
+  }
+  .text-light {
+    color: black;
+  }
+}
+
+footer {
+  background-color: #0e0f11;
+  color: white;
+  padding: 40px 0;
+}
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.social-icons a {
+  color: white;
+  margin-right: 15px;
+  font-size: 20px;
+}
+.logo-img {
+  max-width: 150px; /* Adjust the size of the logo */
+  margin-bottom: 20px;
+}
+.partner-logo {
+  max-width: 100px; /* Set a small size for the logos */
+  margin: 20px;
+  transition: transform 0.2s; /* Add a hover effect */
+}
+.partner-logo:hover {
+  transform: scale(1.1); /* Scale up on hover */
+}
+.header {
+  text-align: center;
+  margin: 40px 0;
+}
+.centered-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

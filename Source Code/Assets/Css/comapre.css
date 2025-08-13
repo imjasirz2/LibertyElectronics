@@ -1,0 +1,284 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+
+.dropdown-menu {
+  z-index: 1051;
+  background-color: #111;
+  position: relative;
+}
+
+
+@media (max-width: 450px) {
+  .navbar {
+    height: 15vh;
+    margin-top: -10px;
+  }
+  .card {
+    width: 220px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.logo {
+  width: 120px;
+  object-fit: cover;
+  height: 100%;
+}
+
+@media (min-width: 576px) {
+  .custom-blur {
+    filter: none;
+  }
+  .bg-primary {
+    background-color: transparent !important;
+  }
+  .text-light {
+    color: black;
+  }
+}
+
+/* Card Styles */
+.card {
+  background: #111;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+  transition: 0.3s;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+}
+
+.card-img-top {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.btn-discover {
+  margin-top: 10px;
+  background-color: #000;
+  color: white;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-discover:hover {
+  background-color: #444;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  background-color: #000;
+  color: white;
+  padding: 80px 20px;
+}
+
+/* Comparison Section */
+#comparison-form select {
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#comparison-form select:disabled {
+  background-color: #333;
+  color: #aaa;
+}
+
+#comparison-form option {
+  background-color: #111;
+  color: #fff;
+}
+
+/* Comparison Results Section */
+#comparison-results {
+  border-top: 1px solid #444;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+#comparison-results img {
+  border-radius: 1px;
+  max-width: 100%;
+  object-fit: contain;
+  background-color: #000000;
+  padding: 10px;
+}
+
+#comparison-results h5,
+#comparison-results p,
+#comparison-results span {
+  color: #000000;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#comparison-results strong {
+  color: #aaa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #comparison-results {
+    flex-direction: column;
+  }
+
+  #comparison-results > div {
+    border-right: none !important;
+    border-bottom: 1px solid #444;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: #0e0f11;
+  color: white;
+  padding: 40px 0;
+}
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.social-icons a {
+  color: white;
+  margin-right: 15px;
+  font-size: 20px;
+}
+.logo-img {
+  max-width: 150px; /* Adjust the size of the logo */
+  margin-bottom: 20px;
+}
+.partner-logo {
+  max-width: 100px; /* Set a small size for the logos */
+  margin: 20px;
+  transition: transform 0.2s; /* Add a hover effect */
+}
+.partner-logo:hover {
+  transform: scale(1.1); /* Scale up on hover */
+}
+.header {
+  text-align: center;
+  margin: 40px 0;
+}
+.centered-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  object-fit: cover;
+  height: 100%;
+}
+
+.nav-link:hover {
+  /* background: #d8d5d5; */
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+
+
+.navbar {
+height: 20vh;
+z-index: 1050;
+}
+
+.navbar > .container {
+height: 100%;
+}
+
+.dropdown-menu {
+z-index: 1051;
+background-color: #111;
+position: relative;
+}
+
+.dropdown-menu {
+z-index: 1051;
+background-color: #111;
+position: relative;
+}
+
+@media (max-width: 450px) {
+  .navbar {
+    height: 15vh;
+    margin-top: -10px;
+  }
+  .card {
+    width: 220px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.logo {
+  width: 120px;
+  object-fit: cover;
+  height: 100%;
+}
+
+@media (min-width: 576px) {
+  .custom-blur {
+    filter: none;
+  }
+  .bg-primary {
+    background-color: transparent !important;
+  }
+  .text-light {
+   color: black;
+  }}

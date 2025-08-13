@@ -1,0 +1,236 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9f4fb;
+    color: #333;
+}
+.nav-link:hover {
+    /* background: #d8d5d5; */
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+  }
+  
+
+.navbar {
+  height: 20vh;
+  z-index: 1050;
+}
+
+.navbar > .container {
+  height: 100%;
+}
+
+.dropdown-menu {
+  z-index: 1051;
+  background-color: #111;
+  position: relative;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff; /* White background */
+    border-top: 5px solid #000; /* Black border-top to match the theme */
+}
+@media (max-width: 450px) {
+    .navbar {
+      height: 15vh;
+      margin-top: -10px;
+    }}
+    .logo {
+        width: 120px;
+        object-fit: cover;
+        height: 100%;
+      }
+      
+/* Section Title */
+.section-title {
+    font-size: 2.5rem;
+    color: #000; /* Black color for titles */
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+/* Branches Section */
+.branches {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.branch-box {
+    width: 30%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: left;
+}
+
+.branch-box h3 {
+    font-size: 1.8rem;
+    color: #000; /* Black color */
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.branch-box p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.branch-box a {
+    color: #007bff; /* Blue links */
+    text-decoration: none;
+}
+
+.branch-box a:hover {
+    text-decoration: underline;
+}
+
+.branch-map {
+    margin-top: 15px;
+}
+
+.branch-map iframe {
+    border-radius: 8px;
+}
+
+/* Opening Hours Section */
+.opening-hours {
+    margin-bottom: 40px;
+}
+
+.opening-hours h3 {
+    font-size: 1.8rem;
+    color: #000; /* Black color */
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.opening-hours ul {
+    list-style: none;
+    padding: 0;
+}
+
+.opening-hours li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333; /* Dark text */
+}
+
+/* Contact Form */
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #f4f4f4; /* Light background for form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3 {
+    font-size: 2rem;
+    color: #000; /* Black color */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contact-form label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+    color: #000; /* Black color */
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.contact-form button {
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    background-color: #000; /* Black button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #007bff; /* Blue on hover */
+}
+
+.contact-form button:active {
+    background-color: #0056b3; /* Darker blue when clicked */
+}
+
+/* FAQ Section */
+.faq-section {
+    margin-bottom: 40px;
+}
+
+.faq-section h3 {
+    font-size: 1.8rem;
+    color: #000; /* Black color */
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.faq-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.faq-section li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.faq-section li strong {
+    font-weight: bold;
+}
+footer {
+    background-color: #0e0f11;
+    color: white;
+    padding: 40px 0;
+  }
+  .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+  }
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  .social-icons a {
+    color: white;
+    margin-right: 15px;
+    font-size: 20px;
+  }

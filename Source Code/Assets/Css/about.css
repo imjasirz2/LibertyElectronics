@@ -1,0 +1,265 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.about-hero {
+  background: url('../img/E-commerce-1-1200x628.jpg') no-repeat center center/cover;
+  color: #000000;
+  text-align: center;
+  padding: 200px 40px;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-hero h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+}
+
+/* General Content Sections */
+.about-content,
+.mission-vision,
+.team,
+.values,
+.testimonials {
+  padding: 80px 10%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.about-content h2,
+.team h2,
+.values h2,
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.about-content p,
+.values p,
+.testimonial-card p,
+.team-member p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Mission & Vision Boxes */
+.mission-vision {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.mission-box,
+.vision-box,
+.value-box,
+.team-member,
+.testimonial-card {
+  background-color: #111;
+  color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.mission-box:hover,
+.vision-box:hover,
+.value-box:hover,
+.team-member:hover,
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+}
+
+.value-box h3,
+.team-member h3,
+.testimonial-card h4 {
+  color: #fff;
+  margin-top: 10px;
+}
+
+/* Team Section */
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease-in-out;
+  max-width: 300px;
+  background-color: #111;
+  color: #fff;
+}
+
+.team-member:hover {
+  transform: scale(1.05);
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* Testimonials */
+.testimonial-card {
+  background-color: #111;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.05);
+  margin: 20px auto;
+  max-width: 500px;
+  transition: all 0.3s ease-in-out;
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05);
+}
+
+.testimonial-card p {
+  font-style: italic;
+  color: #fff;
+}
+
+.testimonial-card h4 {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #fff;
+}
+
+/* Heading Accent */
+h3 {
+  color: #fff;
+}
+
+footer {
+  background-color: #0e0f11;
+  color: white;
+  padding: 40px 0;
+}
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.social-icons a {
+  color: white;
+  margin-right: 15px;
+  font-size: 20px;
+}
+.logo-img {
+  max-width: 150px; /* Adjust the size of the logo */
+  margin-bottom: 20px;
+}
+.campare-image {
+  max-height: 400px;
+  object-fit: cover;
+}
+.partner-logo {
+  max-width: 100px; /* Set a small size for the logos */
+  margin: 20px;
+  transition: transform 0.2s; /* Add a hover effect */
+}
+.partner-logo:hover {
+  transform: scale(1.1); /* Scale up on hover */
+}
+.header {
+  text-align: center;
+  margin: 40px 0;
+}
+.nav-link:hover {
+  /* background: #d8d5d5; */
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+
+
+.navbar {
+  height: 20vh;
+  z-index: 1050;
+}
+.navbar > .container {
+  height: 100%;
+}
+.dropdown-menu {
+  z-index: 1051;
+  background-color: #d8d5d5;
+  position: relative;
+}
+
+@media (max-width: 450px) {
+  .navbar {
+    height: 15vh;
+    margin-top: -10px;
+  }
+  .card {
+    width: 220px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.logo {
+  width: 120px;
+  object-fit: cover;
+  height: 100%;
+}
+
+@media (min-width: 576px) {
+  .custom-blur {
+    filter: none;
+  }
+  .bg-primary {
+    background-color: transparent !important;
+  }
+  .text-light {
+   color: black;
+  }}
